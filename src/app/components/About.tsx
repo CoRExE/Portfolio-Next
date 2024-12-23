@@ -16,13 +16,13 @@ export function About() {
                     </div>
                     <div className="md:w-1/2 md:pl-8 text-white">
                         <p className="mb-4">
-                            I'm a passionate software developer with a love for creating engaging and innovative
+                            I&#39;m a passionate software developer with a love for creating engaging and innovative
                             applications.
                             My journey in the world of coding is much like a classic RPG - full of challenges, learning,
                             and leveling up!
                         </p>
                         <p className="mb-4">
-                            When i'm not coding, you can find me:
+                            When i&#39;m not coding, you can find me:
                         </p>
                         <ul className="list-disc list-inside mb-4">
                             <li>Exploring new board games</li>
@@ -35,7 +35,7 @@ export function About() {
                         </p>
                     </div>
                 </div>
-                <a href="#skills" className="btn btn-primary">Continue</a>
+                <a href={"#skills"} className="btn btn-primary">Continue</a>
             </div>
         </section>
     )
