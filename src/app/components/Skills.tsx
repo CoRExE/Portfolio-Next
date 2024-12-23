@@ -1,10 +1,14 @@
 const skills = [
-    { name: 'JavaScript', level: 90 },
-    { name: 'TypeScript', level: 85 },
-    { name: 'React', level: 80 },
-    { name: 'Node.js', level: 75 },
-    { name: 'NextJS', level: 70 },
-    { name: 'SQL', level: 65 },
+    { name: 'Python', level: 90 },
+    { name: 'Py-Cord', level: 85},
+    { name: 'Django', level: 80 },
+    { name: 'Flask', level: 70 },
+    { name: 'Java', level: 75 },
+    { name: 'TS/JS', level: 70 },
+    { name: 'React', level: 70},
+    { name: 'SQL', level: 60 },
+    { name: 'NoSQL', level: 70 },
+    { name: 'PHP/Laravel', level: 50 },
 ]
 
 export function Skills() {
@@ -30,7 +34,7 @@ export function Skills() {
                     ))}
                 </div>
                 <br/>
-                <a href="#projects" className="btn btn-primary">Continue</a>
+                <a href={"#projects"} className="btn btn-primary">Continue</a>
             </div>
         </section>
     )
