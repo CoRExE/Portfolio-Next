@@ -2,22 +2,30 @@ import { PixelArt } from './PixelArt'
 
 const projects = [
     {
-        title: 'Project 1',
-        description: 'A brief description of project 1',
-        image: '/placeholder.svg?height=150&width=150',
-        link: '#',
+        title: 'Interface de Cryptage',
+        description: 'An encryption interface to encrypt and decrypt messages using Tkinter.',
+        image: '/projects/binary.svg',
+        link: 'https://github.com/CoRExE/Interface-de-Cryptage',
+        technologies: ['/tech/python-ico.svg'],
     },
     {
-        title: 'Project 2',
-        description: 'A brief description of project 2',
-        image: '/placeholder.svg?height=150&width=150',
-        link: '#',
+        title: 'VideoSquencer',
+        description: 'A video sequencer, making frame-shot from a video and make report of it. (Audit Application)',
+        image: '/projects/VideoSquencer.ico',
+        link: 'https://github.com/CoRExE/VideoSquencer',
+        technologies: [
+            '/tech/python-ico.svg',
+            '/tech/opencv-ico.ico',
+            '/tech/jinja2-ico.ico',
+            '/tech/html5-ico.svg',
+            ],
     },
     {
-        title: 'Project 3',
-        description: 'A brief description of project 3',
-        image: '/placeholder.svg?height=150&width=150',
-        link: '#',
+        title: 'Majordome',
+        description: 'Originally, it was a moderation BOT. Since then, things have gone wrong...',
+        image: '/projects/Majordome.ico',
+        link: 'https://github.com/CoRExE/Majordome',
+        technologies: ['/tech/python-ico.svg', '/tech/py-cord.ico', '/tech/sqlite3.ico'],
     },
 ]
 
@@ -40,6 +48,11 @@ export function Projects() {
                             <div className="card-body items-center text-center">
                                 <h3 className="card-title">{project.title}</h3>
                                 <p>{project.description}</p>
+                                <div className="mt-2 flex justify-center space-x-2">
+                                    {project.technologies.map((tech, idx) => (
+                                        <img key={idx} src={tech} alt={`${tech} icon`} width={24} height={24} />
+                                    ))}
+                                </div>
                                 <div className="card-actions">
                                     <a href={project.link} className="btn btn-primary" target="_blank" rel="noopener noreferrer">View Project</a>
                                 </div>
@@ -51,4 +64,3 @@ export function Projects() {
         </section>
     )
 }
-
