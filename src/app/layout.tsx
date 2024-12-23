@@ -5,7 +5,7 @@ import { Analytics } from '@vercel/analytics/react'
 const pressStart2P = Press_Start_2P({ weight: '400', subsets: ['latin'] })
 
 export const metadata = {
-    title: 'Your Name - Retro Gaming Portfolio',
+    title: 'Jules Langagne - Retro Gaming Portfolio',
     description: 'Software developer portfolio with a retro gaming twist',
 }
 
@@ -21,4 +21,3 @@ export default function RootLayout({children,}: {
         </html>
     )
 }
-
