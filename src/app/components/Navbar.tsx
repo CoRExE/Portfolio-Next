@@ -10,10 +10,10 @@ export function Navbar() {
             </div>
             <div className="flex-none">
                 <ul className="menu menu-horizontal px-1">
-                    <li><Link href="/projects">Projects</Link></li>
-                    <li><Link href="/skills">Skills</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
+                    <li><Link href={"/projects"}>Projects</Link></li>
+                    <li><Link href={"/skills"}>Skills</Link></li>
+                    <li><Link href={"/about"}>About</Link></li>
+                    <li><Link href={"/contact"}>Contact</Link></li>
                 </ul>
             </div>
         </nav>
