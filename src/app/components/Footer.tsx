@@ -7,6 +7,7 @@ export function Footer() {
                     <a href="https://github.com/CoRExE" className="link link-hover" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <a href="https://linkedin.com/in/jules-langagne" className="link link-hover" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                     <a href="https://x.com/Exort_Nam" className="link link-hover" target="_blank" rel="noopener noreferrer">Twitter</a>
+                    <a href="/cv.pdf" className="link link-hover" target="_blank" rel="noopener noreferrer">CV</a>
                 </div>
             </div>
         </footer>
