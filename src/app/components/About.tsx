@@ -8,7 +8,7 @@ export function About() {
                 <div className="flex flex-col md:flex-row items-center justify-center">
                     <div className="md:w-1/2 mb-8 md:mb-0">
                         <PixelArt
-                            src="/placeholder.svg?height=300&width=300"
+                            src="/interests.png"
                             alt="Pixel art representation of my interests"
                             width={300}
                             height={300}
